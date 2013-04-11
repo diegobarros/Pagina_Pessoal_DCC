@@ -21,6 +21,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background-color: #FBFBF9;
 }
 
 /*
@@ -94,23 +95,64 @@ textarea {
    ========================================================================== */
 
 
+
+
 #container {
 	width: 1280px;
+	height: 768px;
 	margin: 0 auto;
 	border: 1px solid black;
 }
 
+#cabecalho-principal {
+	height: 34px;
+	padding: 4px;
+	background-color: #000000;
+}
+
+#container-titulo-principal {
+	margin: 2px 150px;
+}
+
+#rodape-principal {
+	padding: 20px;
+	height: 100px;
+	background-color:#8C1515;
+}
 
 
+#cabecalho-dcc {
+	padding: 20px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+nav {
+	padding: 4px;
+	height: 50px;
+	border: 1px solid black;
+}
 
 
+.conteudo {
+	padding: 20px;
+	border: 1px solid black;
+	height: 525px;
+}
 
+#container-foto {
+	float:left;
+	width: 480px;
+	border: 1px solid black;
+	padding: 4px;
+}
 
-
-
-
-
-
+#container-informacoes {
+	float:left;
+	width: 738px;
+	border: 1px solid black;
+	padding: 4px;
+} 
 
 
 /* ==========================================================================

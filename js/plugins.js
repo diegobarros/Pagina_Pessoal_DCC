@@ -24,8 +24,5 @@
 // Place any jQuery/helper plugins in here.
 
 $(document).ready(function(){
-	$('#contador').countdown({
-		timestamp : (new Date()).getTime() + 51*24*60*60*1000
-	});
-
+	
 });

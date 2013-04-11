@@ -13,7 +13,7 @@ body {
 }
 
 #painel-superior{
-	height: 300px;
+	height: 375px;
 	width: 100%;
 	padding: 20px;
 	background-color:#B3D4FC;
@@ -21,6 +21,16 @@ body {
 	top:0;
 	left:0;
 	z-index: -1;
+	background: #ffffff url("../img/7.png") repeat scroll top left;
+}
+
+
+#titulo-coming-soon {
+	margin:0 auto;
+	color:#FFFFFF;
+	font-family: 'LeagueGothicRegular', Arial, Helvetica, sans-serif;
+	font-size: 64pt;
+	text-align:center;
 }
 
 #painel-central {
@@ -63,7 +73,6 @@ body {
 	color: #272727;
 	text-shadow: 0 1px 0 #fff;
 	overflow: hidden;
-	border: 1px solid black;
 }
 
 
